@@ -90,6 +90,7 @@ section h1 {
 #projects {
     display: flex;
     flex-direction: row;
+    padding: 10px;
 }
 
 #container {
@@ -97,3 +98,14 @@ section h1 {
     padding: 10px;
 }
 
+#resume {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}

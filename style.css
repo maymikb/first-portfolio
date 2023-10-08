@@ -1,0 +1,98 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the sections */
+section {
+    padding: 40px;
+}
+
+section h1 {
+    font-size: 2em;
+}
+
+/* Style individual projects */
+.project {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.project h2 {
+    font-size: 1.5em;
+}
+
+/* Style project images */
+.project img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+/* Style the "View Project" links */
+.project a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.project a:hover {
+    background-color: #555;
+}
+
+/* Add more custom styles as needed */
+
+
+#about {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#description {
+    border-left: 5px solid brown;
+    padding: 10px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+}
+
+#container {
+    border-left: 5px solid brown;
+    padding: 10px;
+}

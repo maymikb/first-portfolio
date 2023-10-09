@@ -120,24 +120,3 @@ section h1 {
     align-items: center;
 }
 
-/* .myPic img{
-display: inline-block;
-justify-content: space-around; 
-padding: 5px 10px;
-background-color: rgb(119, 39, 39);
-text-decoration: none;
-border-radius: 5px;
-margin-top: 10px;
-} */
-
-.myPic img{
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-    margin: 0; */
-  }
-  
-  /* .center {
-    text-align: center;
-  } */
